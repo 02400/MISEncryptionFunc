@@ -79,7 +79,7 @@ public class HttpEncryptFunction
             var response = req.CreateResponse(System.Net.HttpStatusCode.OK);
             if (matchCount == 0)
             {
-                await response.WriteStringAsync("No files matched the given pattern.");
+                await response.WriteStringAsync("No files  matched the given pattern.");
             }
             else
             {
